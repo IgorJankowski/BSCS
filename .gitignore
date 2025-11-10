@@ -1,0 +1,86 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.DotSettings.user
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.suo
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# ReSharper
+.idea/
+*.DotSettings
+
+# Package/dependency directories
+packages/
+.packages/
+NuGet.Config
+NuGet.exe
+
+# Entity Framework
+*.mdf
+*.ldf
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and runtime files
+.idea/
+*.iml
+out/
+
+# Project-specific
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+*.opencover.xml
+
+# Node (if using npm)
+node_modules/
+
+# Docker
+docker-compose.override.yml
+
+# Certificate files
+*.pfx
+*.pem
+*.key
