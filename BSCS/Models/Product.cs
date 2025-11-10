@@ -43,9 +43,6 @@ namespace BSCS.Models
         /// <summary>
         /// Primary product image (first from images list or empty).
         /// </summary>
-        public string Image
-        {
-            get => Images?.FirstOrDefault() ?? string.Empty;
-        }
+        public string Image { get; set; } = string.Empty;
     }
 }

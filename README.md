@@ -1,10 +1,6 @@
 # Backend Shopping Cart Service E-Commerce API
 
-## Design assumptions
-
-"3.) view the contents of the cart"
-"4.) display a summary of the current order"
-I Assumed that these are logically the same, since cart includes totalItems & totalPrice
+## Design description
 
 - to get the list of all products from ext api
 GET /api/products 
@@ -30,10 +26,6 @@ DELETE /api/cart/remove/{productId}
 PUT /api/cart/update/{productId}
 
 GET /api/cart
-
-### Display a summary of the current order
-
-GET /api/cart/summary
 
 ### Design Patterns Used
 - **Dependency Injection**: Loose coupling through interfaces (Program.cs configuration)

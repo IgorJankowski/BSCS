@@ -9,7 +9,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Register API Client with HttpClient
-builder.Services.AddHttpClient<ProductApiClient>()
+builder.Services.AddHttpClient<IProductApiClient, ProductApiClient>()
     .ConfigureHttpClient(client =>
     {
         client.BaseAddress = new Uri("https://api.escuelajs.co/api/v1/");

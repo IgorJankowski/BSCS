@@ -5,10 +5,10 @@ namespace BSCS.Services
 {
     public class ProductService : IProductService
     {
-        private readonly ProductApiClient _apiClient;
+        private readonly IProductApiClient _apiClient;
         private readonly ILogger<ProductService> _logger;
 
-        public ProductService(ProductApiClient apiClient, ILogger<ProductService> logger)
+        public ProductService(IProductApiClient apiClient, ILogger<ProductService> logger)
         {
             _apiClient = apiClient;
             _logger = logger;

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSCS", "BSCS\BSCS.csproj", "{EFB665D3-82E7-44C0-90B1-2801F3E2DE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSCS.Test", "BSCS.Test\BSCS.Test.csproj", "{9E3E5063-B10C-47D0-B218-0E8E9D82575A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EFB665D3-82E7-44C0-90B1-2801F3E2DE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFB665D3-82E7-44C0-90B1-2801F3E2DE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFB665D3-82E7-44C0-90B1-2801F3E2DE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3E5063-B10C-47D0-B218-0E8E9D82575A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3E5063-B10C-47D0-B218-0E8E9D82575A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3E5063-B10C-47D0-B218-0E8E9D82575A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3E5063-B10C-47D0-B218-0E8E9D82575A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

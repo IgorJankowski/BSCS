@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace BSCS.Clients
 {
-    public class ProductApiClient
+    public class ProductApiClient : IProductApiClient
     {
         private readonly HttpClient _httpClient;
         private readonly ILogger<ProductApiClient> _logger;
